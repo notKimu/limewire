@@ -1,0 +1,310 @@
+/**IMPORTANT */
+.unset {
+    all: unset;
+}
+
+.screen {
+    height: 100dvh;
+    width:  100dvw;
+}
+
+.fullscreen-abs {
+    position: absolute;
+    height:   100dvh;
+    width:    100dvw;
+    top:      0;
+    left:     0;
+}
+
+.centerineitor {
+    align-items:     center;
+    justify-content: center;
+    place-content:   center;
+}
+
+.selected {
+    background-color: var(--color-select);
+}
+
+.h-full {
+    height: 100%;
+}
+.h-fit {
+    height: fit-content;
+}
+
+.w-full {
+    width: 100%;
+}
+.w-fit {
+    width: fit-content;
+}
+
+.selectable:hover {
+    background-color: var(--color-select);
+}
+
+.round-hover {
+    border-radius: 50%;
+}
+.round-hover:hover {
+    border-radius: 25%;
+    border: .2rem solid var(--color-select);
+}
+
+/**POSITION */
+.absolute {
+    position: absolute;
+}
+.relative {
+    position: relative;
+}
+
+.top-0 {
+    top: 0;
+}
+.left-0 {
+    left: 0;
+}
+.right-0 {
+    right: 0;
+}
+.bottom-0 {
+    bottom: 0;
+}
+
+/**DISPLAY */
+.flex {
+    display: flex;
+}
+.col {
+    flex-direction: column;
+}
+.col-reverse {
+    flex-direction: column-reverse;
+}
+.row {
+    flex-direction: row;
+}
+
+.a-center {
+    align-items: center;
+}
+.a-end {
+    align-items: flex-end;
+}
+.a-start {
+    align-items: flex-start;
+}
+
+.j-center {
+    justify-content: center;
+}
+.j-end {
+    justify-content: flex-end;
+}
+.j-space {
+    justify-content: space-between;
+}
+.j-start {
+    justify-content: start;
+}
+
+.grid {
+    display: grid;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+.overflow-x-scroll {
+    overflow-x: scroll;
+}
+.overflow-y-hidden {
+    overflow-y: hidden;
+}
+.overflow-y-scroll {
+    overflow-y: scroll;
+}
+
+.inline {
+    display: inline;
+}
+/**SIZING */
+.ar-1-1 {
+    aspect-ratio: 1/1;
+}
+
+/**HEIGHT */
+.h-20 {
+    height: 20%;
+}
+.h-25 {
+    height: 25%;
+}
+.h-50 {
+    height: 50%;
+}
+.h-75 {
+    height: 75%;
+}
+
+.h-s {
+    height: .25rem;
+}
+.h-m {
+    height: .5rem;
+}
+.h-x {
+    height: 1rem;
+}
+.h-xl {
+    height: 1.5rem;
+}
+.h-20 {
+    height: 2rem;
+}
+
+/**WIDTH */
+.w-20 {
+    width: 20%;
+}
+.w-25 {
+    width: 25%;
+}
+.w-50 {
+    width: 50%;
+}
+.w-75 {
+    width: 75%;
+}
+
+/**BORDERS */
+.round {
+    border-radius: 50%;
+}
+
+.br-xs {
+    border-radius: .1rem;
+}
+.br-s {
+    border-radius: .25rem;
+}
+.br-m {
+    border-radius: .5rem;
+}
+.br-x {
+    border-radius: .75rem;
+}
+.br-xl {
+    border-radius: 1rem;
+}
+
+/**TEXT */
+.text-inline {
+    clear:       both;
+    display:     inline-block;
+    overflow:    hidden;
+    white-space: nowrap;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+}
+
+.ellipsis {
+    text-overflow: ellipsis;
+}
+
+/**PADDING */
+.p-xs {
+    padding: .1rem;
+}
+.p-s {
+    padding: .25rem;
+}
+.p-m {
+    padding: .5rem;
+}
+.p-x {
+    padding: .75rem;
+}
+.p-xl {
+    padding: 1rem;
+}
+
+/**GAPS */
+.g-xs {
+    gap: .1rem;
+}
+.g-s {
+    gap: .25rem;
+}
+.g-s {
+    gap: .25rem;
+}
+.g-m {
+    gap: .5rem;
+}
+.g-x {
+    gap: .75rem;
+}
+.g-xl {
+    gap: 1rem;
+}
+
+/**SQUARES */
+.square-s {
+    height: .5rem;
+    width:  .5rem;
+}
+.square-m {
+    height: 1rem;
+    width:  1rem;
+}
+.square-x {
+    height: 1.5rem;
+    width:  1.5rem;
+}
+.square-xl {
+    height: 2rem;
+    width:  2rem;
+}
+.square-xxl {
+    height: 2.5rem;
+    width:  2.5rem;
+}
+.square-3 {
+    height: 3rem;
+    width:  3rem;
+}
+.square-xxx {
+    height: 4rem;
+    width:  4rem;
+}
+
+/**FANCY */
+.blur-bg-s {
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter:         blur(1px);
+}
+.blur-bg-m {
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter:         blur(3px);
+}
+.blur-bg-x {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter:         blur(5px);
+}
+
+/**DEBUG */
+/* .outline-dbg {
+    border: 1px dashed red;
+} */

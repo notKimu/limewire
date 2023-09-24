@@ -1,0 +1,39 @@
+:root {
+    --color-online:  #57f54c;
+    --color-idle:    #f2f54c;
+    --color-dnd:     #f5574c;
+    --color-offline: #696969;
+}
+
+.online {
+    background-color: var(--color-online);
+}
+
+.idle {
+    background-color: var(--color-idle);
+}
+
+.dnd {
+    background-color: var(--color-dnd);
+}
+
+.offline {
+    background-color: var(--color-offline);
+}
+
+.external-link::after {
+    content: ' ↗';
+}
+
+
+.emoji-text {
+    height: 1.3rem;
+}
+.emoji {
+    height: 3rem;
+}
+
+/**Text */
+code {
+    background-color: var(--color-box-dark);
+}
