@@ -38,5 +38,5 @@ jobs:
           tagName: app-v__VERSION__ # the action automatically replaces \_\_VERSION\_\_ with the app version
           releaseName: 'App v__VERSION__'
           releaseBody: 'A new Limewire update has been released (v__VERSION__), download it here.'
-          releaseDraft: true
+          releaseDraft: false
           prerelease: false
